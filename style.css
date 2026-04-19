@@ -34,6 +34,19 @@ h1 {
   border-radius: 20px;
   border: 2px solid #d1dec9;
   overflow: hidden;
+  margin: auto;
+}
+
+.tree-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tree_icon.svg/512px-Tree_icon.svg.png");
+  background-size: 280px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  pointer-events: none;
 }
 
 .node {
