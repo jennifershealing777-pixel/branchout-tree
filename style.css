@@ -41,7 +41,7 @@ h1 {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tree_icon.svg/512px-Tree_icon.svg.png");
+  background-image: url("./tree.png");
   background-size: 280px;
   background-repeat: no-repeat;
   background-position: center;
