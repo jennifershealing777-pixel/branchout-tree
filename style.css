@@ -42,9 +42,12 @@ h1 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 280px;
+  width: 300px;
   height: auto;
-  pointer-events: none;
+  z-index: 1;
+  opacity: 1;
+  display: block;
+  border: 2px solid red; /* temporary test */
 }
 
 .node {
@@ -55,6 +58,7 @@ h1 {
   cursor: pointer;
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  z-index: 2;
 }
 
 .node:hover {
