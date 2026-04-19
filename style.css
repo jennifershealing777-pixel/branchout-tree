@@ -37,15 +37,13 @@ h1 {
   margin: auto;
 }
 
-.tree-area::before {
-  content: "";
+.tree-image {
   position: absolute;
-  inset: 0;
-  background-image: url("./tree.png");
-  background-size: 280px;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.9;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: auto;
   pointer-events: none;
 }
 
