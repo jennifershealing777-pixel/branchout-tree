@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f2e8;
+  color: #1f2a1f;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #4c5b4c;
+}
+
+.tree-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 28px 0;
+}
+
+.tree-area {
+  position: relative;
+  width: 520px;
+  height: 420px;
+  background: linear-gradient(to top, #d9f0d2, #eef7ea);
+  border-radius: 20px;
+  border: 2px solid #d1dec9;
+  overflow: hidden;
+}
+
+.node {
+  position: absolute;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.node:hover {
+  transform: scale(1.03);
+}
+
+.node.active {
+  outline: 3px solid #1f2a1f;
+}
+
+.roots {
+  left: 90px;
+  bottom: 35px;
+  background: #8b5e3c;
+  color: white;
+}
+
+.trunk {
+  left: 210px;
+  top: 170px;
+  background: #6f4b2f;
+  color: white;
+}
+
+.branches {
+  right: 70px;
+  top: 120px;
+  background: #4f8b4f;
+  color: white;
+}
+
+.leaves {
+  left: 95px;
+  top: 70px;
+  background: #7bc96f;
+  color: #163116;
+}
+
+.growth {
+  right: 60px;
+  bottom: 55px;
+  background: #ffd966;
+  color: #4d3b00;
+}
+
+.panel {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid #d9dfd2;
+  min-height: 220px;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.card {
+  background: #f8fbf6;
+  border: 1px solid #dce8d7;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
