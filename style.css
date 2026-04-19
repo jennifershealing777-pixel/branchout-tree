@@ -59,10 +59,11 @@ h1 {
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0,0,0,0.12);
   z-index: 2;
+  transition: all 0.2s ease;
 }
 
 .node:hover {
-  transform: scale(1.03);
+  transform: scale(1.06);
 }
 
 .node.active {
